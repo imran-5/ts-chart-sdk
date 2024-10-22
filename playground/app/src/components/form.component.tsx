@@ -3,12 +3,14 @@ import barModel from '../mock-data/mock-chart.json';
 import sunburstSmallModel from '../mock-data/sunburst-small.json';
 import sunburstModel from '../mock-data/sunburst.json';
 import ganttModel from '../mock-data/mock-gantt.json';
+import h3London from '../mock-data/h3-london-4-columns.json';
 
 const MODELS:any = {
     'Small - 1 Attribute - 3 Measure': barModel,
     'Large - 3 Attribute - 1 Measure': sunburstModel,
     'Small - 3 Attribute - 1 Measure': sunburstSmallModel,
     'Gantt - 3 Attribute - 2 Date - 1 Measure': ganttModel,
+    'H3 - 4 H3 - 1 Points - 1 Measure - London': h3London,
 }
 
 export const Form = ({
