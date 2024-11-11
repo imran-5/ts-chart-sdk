@@ -3,20 +3,18 @@ import barModel from '../mock-data/mock-chart.json';
 import sunburstSmallModel from '../mock-data/sunburst-small.json';
 import sunburstModel from '../mock-data/sunburst.json';
 import ganttModel from '../mock-data/mock-gantt.json';
-import H3London from '../mock-data/h3-london-4-columns.json';
-import H31Column from '../mock-data/h3-1-column.json';
-import H34Columns from '../mock-data/h3-4-columns.json';
-import H35Columns from '../mock-data/h3-4-columns.json';
+import H31Column from '../mock-data/h3-london-1-column.json';
+import H34Columns from '../mock-data/h3-london-4-columns.json';
+import H35Columns from '../mock-data/h3-london-5-columns.json';
 
 const MODELS:any = {
     'Small - 1 Attribute - 3 Measure': barModel,
     'Large - 3 Attribute - 1 Measure': sunburstModel,
     'Small - 3 Attribute - 1 Measure': sunburstSmallModel,
     'Gantt - 3 Attribute - 2 Date - 1 Measure': ganttModel,
-    'H3 - 4 H3 - 1 Points - 1 Measure - London': H3London,
-    'H3 - 1 H3 - 1 Points - 1 Measure': H31Column,
-    'H3 - 4 H3 - 1 Points - 1 Measure': H34Columns,
-    'H3 - 5 H3 - 1 Points - 1 Measure': H35Columns,
+    'H3 - 1 H3 - 1 Points - 1 Measure - London': H31Column,
+    'H3 - 4 H3 - 1 Points - 1 Measure - London': H34Columns,
+    'H3 - 5 H3 - 1 Points - 1 Measure - London': H35Columns,
 }
 
 export const Form = ({
